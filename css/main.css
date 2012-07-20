@@ -52,6 +52,10 @@ body {
 	background: radial-gradient(center, ellipse cover,  rgba(85,90,95,1) 0%,rgba(28,30,32,1) 100%);
 }
 
+
+::-moz-selection{ background: #66B360; color:#fff; text-shadow: none; }
+::selection { background:#66B360; color:#fff; text-shadow: none; }
+
 /*********************************************
  * HEADERS
  *********************************************/
